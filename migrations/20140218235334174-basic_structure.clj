@@ -4,8 +4,8 @@
   ["courses" "topics" "lessons"])
 
 (defn up []
-  (let [s "CREATE TABLE " % "(id serial, name text UNIQUE, description text)"]
-    (map #(str %) tables)))
+  (let [cols "(id serial, name text UNIQUE, description text)"]
+    (map #(str "CREATE TABLE " % cols) tables)))
 
 (defn down []
   (map #(str "DROP TABLE " %) tables))
