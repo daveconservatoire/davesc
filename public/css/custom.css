@@ -1,0 +1,21 @@
+body {
+    /*background-color: #F6F6F6;*/
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    color: #999;
+}
+
+.container.main {
+    background-color: #FFF;
+    background: rgba(255, 255, 255, .7);
+    border-style: solid;
+    border-width: 2px;
+    border-color: #A4A4A4;
+    color: #000;
+    padding: 20px 20px;
+}
